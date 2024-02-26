@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="husna is a front-end developer based in Afghanistan."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,23 +30,29 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>My Portfolio</title>
+    <title>Front-end developer - Husna Rasuli</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/index.html">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/index.html" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="shecodes logo"
+          />
           <img
             src="images/small-logo.png"
             class="logo d-block d-md-none"
             alt=""
           />
           <ul>
-            <li class="active"><a href="/index.html"> Home</a></li>
-            <li><a href="/about.html"> About</a></li>
-            <li><a href="/work.html"> Work </a></li>
-            <li><a href="/contact.html"> Contact</a></li>
+            <li class="active">
+              <a href="/index.html" title="Homepage"> Home</a>
+            </li>
+            <li><a href="/about.html" title="About Husna"> About</a></li>
+            <li><a href="/work.html" title="Husna's work"> Work </a></li>
+            <li><a href="/contact.html" title="Contact Husna"> Contact</a></li>
           </ul>
         </a>
       </nav>
@@ -53,7 +62,9 @@
       <h1>Husna Rasuli</h1>
       <h2 class="mb-5">Front-end Developer based in Asia</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -62,7 +73,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -73,7 +88,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -87,16 +102,24 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather app preview"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -107,7 +130,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -116,31 +139,46 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">
               Let’s work together and i’ll help you by all my best
             </p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Husna"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:husnarasuli1@gmail.com" class="email-link"
+          <a
+            href="mailto:husnarasuli1@gmail.com"
+            class="email-link"
+            title="Email Husna"
             >husnarasuli1@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com" target="_blank">
+          <a href="https://www.instagram.com" target="_blank" title="Instagram">
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/husnasadaat" target="_blank"
+          <a
+            href="https://www.github.com/husnasadaat"
+            target="_blank"
+            title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.facebook.com">
+          <a href="https://www.facebook.com" target="_blank" title="Facebook">
             <i class="fa-brands fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center">
+          This project is coded by Husna Rasuli, and it is
+          <a href="" target="_blank">open-sourced.</a>
+        </p>
       </footer>
     </div>
   </body>
